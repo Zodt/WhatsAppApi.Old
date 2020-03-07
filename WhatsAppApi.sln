@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhatsAppApi", "WhatsAppApi.csproj", "{CC9A6B2A-FDB0-464A-A4A9-C4FC83CED823}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC9A6B2A-FDB0-464A-A4A9-C4FC83CED823}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC9A6B2A-FDB0-464A-A4A9-C4FC83CED823}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC9A6B2A-FDB0-464A-A4A9-C4FC83CED823}.Debug|x64.ActiveCfg = Debug|x64
+		{CC9A6B2A-FDB0-464A-A4A9-C4FC83CED823}.Debug|x64.Build.0 = Debug|x64
+		{CC9A6B2A-FDB0-464A-A4A9-C4FC83CED823}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC9A6B2A-FDB0-464A-A4A9-C4FC83CED823}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC9A6B2A-FDB0-464A-A4A9-C4FC83CED823}.Release|x64.ActiveCfg = Release|x64
+		{CC9A6B2A-FDB0-464A-A4A9-C4FC83CED823}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {62A31EB2-106D-49B0-9026-F2689098DF94}
+	EndGlobalSection
+EndGlobal

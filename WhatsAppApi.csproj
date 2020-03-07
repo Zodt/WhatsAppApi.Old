@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Roman Vorontsov</Authors>
+    <Company>SimpleBuy</Company>
+    <Platforms>AnyCPU;x64</Platforms>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <RepositoryType>GitHub</RepositoryType>
+    <NeutralLanguage>ru-RU</NeutralLanguage>
+    <Version>0.285.4</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Test\chogori-k2-3.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Test\chogori-k2-3.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+    <PackageReference Include="System.Drawing.Common" Version="4.5.1" />
+    <PackageReference Include="System.Drawing.Primitives" Version="4.3.0" />
+  </ItemGroup>
+
+</Project>
