@@ -87,7 +87,7 @@ Sending files is possible in 2 ways: using a link or using the local path to the
             var response = messageOperation.SendMessage(sendLink).Result;
 ```
 
-Or if you want use another puctures
+Or if you want use another pictures
 ```csharp
             var sendLink = new SendLink
             {
