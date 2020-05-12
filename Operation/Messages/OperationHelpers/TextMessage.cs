@@ -6,9 +6,6 @@ namespace WhatsAppApi.Operation.Messages.OperationHelpers
     {
         [JsonProperty("body", Required = Required.DisallowNull, NullValueHandling = NullValueHandling.Ignore)]
         private string _body;
-
-        [JsonIgnore] public override string TypeMessageOperation { get; } = "sendMessage";
-
         // ReSharper disable once ConvertToAutoProperty
         public string Message
         {

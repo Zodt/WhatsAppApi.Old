@@ -14,8 +14,5 @@ namespace WhatsAppApi.Operation.Messages.OperationHelpers
         [JsonProperty("address", Required = Required.DisallowNull, NullValueHandling = NullValueHandling.Ignore)]
         public string Address { get; set; }
 
-        [JsonIgnore] public override string TypeMessageOperation { get; } = "sendLocation";
-
-
     }
 }

@@ -17,7 +17,6 @@ namespace WhatsAppApi.Operation.Messages.OperationHelpers
         [JsonProperty("description", Required = Required.DisallowNull, NullValueHandling = NullValueHandling.Ignore)]
         public string Description { get; set; }
 
-        [JsonIgnore] public override string TypeMessageOperation { get; } = "sendLink";
         [JsonIgnore]
         public string Link
         {

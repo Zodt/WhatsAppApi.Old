@@ -29,6 +29,19 @@ namespace WhatsAppApi.Operation.Messages.OperationHelpers
         [JsonIgnore] public virtual string TypeMessageOperation { get; }
         [JsonIgnore] public IWhatsAppApi<ChatOrPhone> Deserialize { get; set; }
 
+
+        protected ChatOrPhone() => TypeMessageOperation = GetTypeMessageOperation();
+
+        private string GetTypeMessageOperation()
+        {
+            var name = this.GetType().Name;
+            return string.Concat(
+                name[0].ToString().ToLower(),
+                name.Substring(1)
+            );
+        }
+
+
         /// <summary>
         /// Приведение номера телефона к стандартному виду типа 71234567890
         /// </summary>
@@ -60,7 +73,7 @@ namespace WhatsAppApi.Operation.Messages.OperationHelpers
             return new Regex(@dynamicPattern).Match(text).Groups["res"].Value;
         }
 
-        public ChatOrPhone(string phoneOrChatId) => PhoneOrChatId = phoneOrChatId;
-        public static explicit operator ChatOrPhone(string x) => new ChatOrPhone(x);
+
+        public static explicit operator ChatOrPhone(string x) => new ChatOrPhone{PhoneOrChatId = x};
     }
 }

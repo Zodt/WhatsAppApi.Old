@@ -43,8 +43,6 @@ namespace WhatsAppApi.Operation.Messages.OperationHelpers
                 else { Image = Image.FromFile(value); _imagePathOrLink = value; FileName = new FileInfo(value).Name; }
             }
         }
-        [JsonIgnore] public override string TypeMessageOperation { get; } = "sendFile";
-
 
         ~SendFile()
         {
