@@ -6,6 +6,7 @@
 
 WhatsAppApi is a cross-platform WhatsApp client library which may be used for the sending and reading of messages, working on chats, instances, queues and bans operation.
 Library based on [chat-api](https://chat-api.com) service.
+!!!Warning!!! This project is not "production ready"! This is nothing more than a concept (yet)
 
 ## Documentation
 
